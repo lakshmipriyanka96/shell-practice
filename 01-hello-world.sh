@@ -1,5 +1,5 @@
 #!/bin/bash
-
-# this is comment, cant be executed, just for information purpose
-echo "Hello World!"
-echo "my name is priyanka"
+echo "My name is Hello World"
+echo "I am learning DevOps"
+echo "I am learning Linux"
+# End of script
