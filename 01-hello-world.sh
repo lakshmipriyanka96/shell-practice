@@ -14,4 +14,6 @@ echo "I am learning AWS"
 echo "I am learning Azure"
 echo "I am learning GCP"
 echo "I am learning Python"
+echo "I am learning Java"
+echo "I am learning Go
 # End of script
