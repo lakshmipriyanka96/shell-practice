@@ -16,4 +16,4 @@ if [ $1 -ne 0 ]; then
   dnf install nginx -y
   validate $? "nginx"
   dnf install mongodb-mongosh -y
-  validate $? "mongodb"
+  validate $? "mongosh"
