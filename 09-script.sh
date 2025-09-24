@@ -15,5 +15,5 @@ if [ $1 -ne 0 ]; then
   validate $? "$2"
   dnf install nginx -y
   validate $? "nginx"
-  dnf install mongodb-mongosh -y
-  validate $? "mongosh"
+  dnf install python3 -y
+  validate $? "python3"
