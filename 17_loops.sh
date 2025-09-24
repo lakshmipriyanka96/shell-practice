@@ -16,7 +16,7 @@ echo "ERROR:: please run this script with sudo or as root user" |tee -a $LOGS_FI
 exit 1
 fi
 validate(){
-if [$1 -ne 0]; then
+if [ $1 -ne 0 ]; then
 echo -e "installing $2 package ...$R failure $N" |tee -a $LOGS_FILE
 else
 echo -e "installing $2 package ...$G success $N" |tee -a $LOGS_FILE
