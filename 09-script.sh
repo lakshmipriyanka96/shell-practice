@@ -35,5 +35,4 @@ if [ $? -eq 0 ]; then
     validate $? "python3"
     else
       echo -e "python3 already installed $Y..SKIPPING $N" 
-  validate $? "$2"
 fi
