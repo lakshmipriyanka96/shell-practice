@@ -3,7 +3,7 @@ USERID=$(id -u)
 G='\e[32m'
 R='\e[31m'
 N='\e[0m' # No Color
-mkdir -p $LOGFILE
+mkdir -p $LOGS_FOLDER
 LOGS_FOLDER="/var/log/shell-script"
 SCRIPT_NAME=$( echo $0 | cut -d "." -f1 )
 LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"
