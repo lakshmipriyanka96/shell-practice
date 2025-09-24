@@ -23,14 +23,14 @@ if [ $1 -ne 0 ]; then
       echo -e "mysql already installed $Y..skipping $N"
   fi
 dnf list installed nginx
-if [ $? -eq 0 ]; then
+if [ $? -ne 0 ]; then
     dnf install nginx -y
     validate $? "nginx"
     else
       echo -e "nginx already installed $Y..skipping $N"
 fi
 dnf list installed python3
-if [ $? -eq 0 ]; then
+if [ $? -ne 0 ]; then
     dnf install python3 -y
     validate $? "python3"
     else
