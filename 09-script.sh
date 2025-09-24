@@ -2,7 +2,7 @@
 USERID=$(id -u)
 G='\e[32m'
 R='\e[31m'
-NC='\e[0m' # No Color
+N='\e[0m' # No Color
 
 if [ "$USERID" -ne 0 ]; then
   echo "Please run as root"
